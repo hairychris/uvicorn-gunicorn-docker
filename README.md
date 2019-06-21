@@ -4,8 +4,8 @@
 
 * [`python3.7`, `latest` _(Dockerfile)_](https://github.com/hairychris/uvicorn-gunicorn-docker/blob/master/python3.7/Dockerfile)
 * [`python3.6` _(Dockerfile)_](https://github.com/hairychris/uvicorn-gunicorn-docker/blob/master/python3.6/Dockerfile)
-* [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/hairychris/uvicorn-gunicorn-docker/blob/master/python3.6-alpine3.8/Dockerfile)
-* [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/hairychris/uvicorn-gunicorn-docker/blob/master/python3.7-alpine3.8/Dockerfile)
+* [`python3.6-alpine3.9` _(Dockerfile)_](https://github.com/hairychris/uvicorn-gunicorn-docker/blob/master/python3.6-alpine3.9/Dockerfile)
+* [`python3.7-alpine3.9` _(Dockerfile)_](https://github.com/hairychris/uvicorn-gunicorn-docker/blob/master/python3.7-alpine3.9/Dockerfile)
 
 # uvicorn-gunicorn
 

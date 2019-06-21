@@ -47,11 +47,11 @@ def verify_container(container, response_text):
         ),
         ("latest.dockerfile", "Test app. From Uvicorn with Gunicorn. Using Python 3.7"),
         (
-            "python3.6-alpine3.8.dockerfile",
+            "python3.6-alpine3.9.dockerfile",
             "Test app. From Uvicorn with Gunicorn. Using Python 3.6",
         ),
         (
-            "python3.7-alpine3.8.dockerfile",
+            "python3.7-alpine3.9.dockerfile",
             "Test app. From Uvicorn with Gunicorn. Using Python 3.7",
         ),
     ],

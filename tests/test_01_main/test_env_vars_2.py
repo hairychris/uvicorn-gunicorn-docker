@@ -37,8 +37,8 @@ def verify_container(container):
         ("hairychris2/uvicorn-gunicorn:python3.6"),
         ("hairychris2/uvicorn-gunicorn:python3.7"),
         ("hairychris2/uvicorn-gunicorn:latest"),
-        ("hairychris2/uvicorn-gunicorn:python3.6-alpine3.8"),
-        ("hairychris2/uvicorn-gunicorn:python3.7-alpine3.8"),
+        ("hairychris2/uvicorn-gunicorn:python3.6-alpine3.9"),
+        ("hairychris2/uvicorn-gunicorn:python3.7-alpine3.9"),
     ],
 )
 def test_env_vars_2(image):

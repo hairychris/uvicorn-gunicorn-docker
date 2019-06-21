@@ -38,11 +38,11 @@ def verify_container(container, response_text):
             "Hello world! From Uvicorn with Gunicorn. Using Python 3.7",
         ),
         (
-            "hairychris2/uvicorn-gunicorn:python3.6-alpine3.8",
+            "hairychris2/uvicorn-gunicorn:python3.6-alpine3.9",
             "Hello world! From Uvicorn with Gunicorn in Alpine. Using Python 3.6",
         ),
         (
-            "hairychris2/uvicorn-gunicorn:python3.7-alpine3.8",
+            "hairychris2/uvicorn-gunicorn:python3.7-alpine3.9",
             "Hello world! From Uvicorn with Gunicorn in Alpine. Using Python 3.7",
         ),
     ],

@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.8
+FROM python:3.7-alpine3.9
 
 RUN apk add --no-cache --virtual .build-deps gcc libc-dev make \
     && pip install aiofile ujson uvicorn gunicorn uvloop \

@@ -47,12 +47,12 @@ def verify_container(container, response_text):
             "Test app. From Uvicorn with Gunicorn. Using Python 3.7",
         ),
         (
-            "python3.6-alpine3.8.dockerfile",
+            "python3.6-alpine3.9.dockerfile",
             {"MODULE_NAME": "custom_app.custom_main", "VARIABLE_NAME": "custom_var"},
             "Test app. From Uvicorn with Gunicorn. Using Python 3.6",
         ),
         (
-            "python3.7-alpine3.8.dockerfile",
+            "python3.7-alpine3.9.dockerfile",
             {"MODULE_NAME": "custom_app.custom_main", "VARIABLE_NAME": "custom_var"},
             "Test app. From Uvicorn with Gunicorn. Using Python 3.7",
         ),
@@ -72,12 +72,12 @@ def verify_container(container, response_text):
             "Test app. From Uvicorn with Gunicorn. Using Python 3.7",
         ),
         (
-            "python3.6-alpine3.8.dockerfile",
+            "python3.6-alpine3.9.dockerfile",
             {"APP_MODULE": "custom_app.custom_main:custom_var"},
             "Test app. From Uvicorn with Gunicorn. Using Python 3.6",
         ),
         (
-            "python3.7-alpine3.8.dockerfile",
+            "python3.7-alpine3.9.dockerfile",
             {"APP_MODULE": "custom_app.custom_main:custom_var"},
             "Test app. From Uvicorn with Gunicorn. Using Python 3.7",
         ),
