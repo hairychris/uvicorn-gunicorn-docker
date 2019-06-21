@@ -27,11 +27,11 @@ def verify_container(container):
 @pytest.mark.parametrize(
     "image",
     [
-        ("tiangolo/uvicorn-gunicorn:python3.6"),
-        ("tiangolo/uvicorn-gunicorn:python3.7"),
-        ("tiangolo/uvicorn-gunicorn:latest"),
-        ("tiangolo/uvicorn-gunicorn:python3.6-alpine3.8"),
-        ("tiangolo/uvicorn-gunicorn:python3.7-alpine3.8"),
+        ("hairychris2/uvicorn-gunicorn:python3.6"),
+        ("hairychris2/uvicorn-gunicorn:python3.7"),
+        ("hairychris2/uvicorn-gunicorn:latest"),
+        ("hairychris2/uvicorn-gunicorn:python3.6-alpine3.8"),
+        ("hairychris2/uvicorn-gunicorn:python3.7-alpine3.8"),
     ],
 )
 def test_env_vars_2(image):

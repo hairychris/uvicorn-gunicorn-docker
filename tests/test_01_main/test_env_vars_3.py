@@ -28,23 +28,23 @@ def verify_container(container, response_text):
     "image,response_text",
     [
         (
-            "tiangolo/uvicorn-gunicorn:python3.6",
+            "hairychris2/uvicorn-gunicorn:python3.6",
             "Hello world! From Uvicorn with Gunicorn. Using Python 3.6",
         ),
         (
-            "tiangolo/uvicorn-gunicorn:python3.7",
+            "hairychris2/uvicorn-gunicorn:python3.7",
             "Hello world! From Uvicorn with Gunicorn. Using Python 3.7",
         ),
         (
-            "tiangolo/uvicorn-gunicorn:latest",
+            "hairychris2/uvicorn-gunicorn:latest",
             "Hello world! From Uvicorn with Gunicorn. Using Python 3.7",
         ),
         (
-            "tiangolo/uvicorn-gunicorn:python3.6-alpine3.8",
+            "hairychris2/uvicorn-gunicorn:python3.6-alpine3.8",
             "Hello world! From Uvicorn with Gunicorn in Alpine. Using Python 3.6",
         ),
         (
-            "tiangolo/uvicorn-gunicorn:python3.7-alpine3.8",
+            "hairychris2/uvicorn-gunicorn:python3.7-alpine3.8",
             "Hello world! From Uvicorn with Gunicorn in Alpine. Using Python 3.7",
         ),
     ],
