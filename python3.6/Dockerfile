@@ -1,6 +1,6 @@
 FROM python:3.6
 
-RUN pip install aiofile ujson uvicorn gunicorn
+RUN pip install aiofile ujson uvicorn gunicorn uvloop
 
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh
